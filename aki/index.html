@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akihiro</title>
+    <link rel="icon" type="image/png" href="./aki-page.png" sizes="90x90">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <img class="userpic" src="../content/img/aki.jpg" alt="Aki Pic">
+        <div class="language-buttons">
+            <button class="language-button" onclick="changeLanguage('en')">🇬🇧 English</button>
+            <button class="language-button" onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+        </div>
+        <div class="info">
+            <p data-translate="greeting" data-owner="greeting">Hello, my name is Akihiro 🦊</p>
+            <p data-translate="lost_dog_heading" data-owner="lost-dog-heading">I'm lost and I really want to get home 🏠</p>
+            <p data-translate="lost_dog_contanct" data-owner="lost_dog_contanct">Call my parents 🥺</p>
+            <div class="owner-container">
+                <div class="owner-info" data-translate="owner_info" data-owner="sasha">
+                    Sasha 🙋🏻‍♂️:<br>
+                    <div class="owner-contact">
+                        <a href="https://t.me/sasha_sup" target="_blank"><img width="45" height="45" src="../content/icons/telegram.png" alt="telegram"/></a>
+                        <a href="https://wa.me/+79636143632" target="_blank"><img width="50" height="50" src="../content/icons/whatsapp.png" alt="whatsapp"/></a>
+                    </div>
+                </div>
+                <div class="owner-info a" data-translate="owner_info" data-owner="marina">
+                    Marina 🙋‍♀️:<br>
+                    <div class="owner-contact a">
+                        <a href="https://t.me/marymyr" target="_blank"><img width="45" height="45" src="../content/icons/telegram.png" alt="telegram"/></a>
+                        <a href="https://wa.me/+79137031100" target="_blank"><img width="50" height="50" src="../content/icons/whatsapp.png" alt="whatsapp"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
