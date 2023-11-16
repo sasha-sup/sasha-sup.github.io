@@ -4,8 +4,8 @@ const translations = {
         lost_dog_heading: 'I\'m lost and I really want to get home 🏠',
         lost_dog_contanct: 'Call my parents 🥺',
         owner_info: {
-            sasha: 'Sasha 🙋🏻‍♂️:',
-            marina: 'Marina 🙋‍♀️:',
+            sasha: '🙋🏻‍♂️ Sasha:',
+            marina: '🙋‍♀️ Marina:',
         },
     },
     'ru': {
@@ -13,8 +13,8 @@ const translations = {
         lost_dog_heading: 'Я потерялась и очень хочу попасть домой 🏠',
         lost_dog_contanct: 'Позвоните моим родителям 🥺',
         owner_info: {
-            sasha: 'Саша 🙋🏻‍♂️:',
-            marina: 'Марина 🙋‍♀️:',
+            sasha: '🙋🏻‍♂️ Саша:',
+            marina: '🙋‍♀️ Марина:',
         },
     }
 };
@@ -35,4 +35,3 @@ function changeLanguage(language) {
         }
     });
 }
-
