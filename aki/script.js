@@ -5,7 +5,7 @@ const translations = {
         lost_dog_contanct: 'Call my parents 🥺',
         owner_info: {
             sasha: '🙋🏻‍♂️ Sasha:',
-            marina: '🙋‍♀️ Marina:',
+            
         },
     },
     'ru': {
@@ -14,7 +14,7 @@ const translations = {
         lost_dog_contanct: 'Позвоните моим родителям 🥺',
         owner_info: {
             sasha: '🙋🏻‍♂️ Саша:',
-            marina: '🙋‍♀️ Марина:',
+            
         },
     }
 };
